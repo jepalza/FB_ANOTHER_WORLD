@@ -1,0 +1,67 @@
+[Project]
+Version=3
+Description=Interprete BYTECODE del juego ANOTHER WORLD
+Api=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows),wx (wx Widgets)
+DefApi=fb (FreeBASIC),gdip (Gdi+),sv (Showvars),win (Windows),wx (wx Widgets),sdl (SDL)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -s console
+2=Windows GUI,fbc -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+CurrentTab=1
+TabOrder=1,2,3,4,5,6,7,8,9,10,12
+[File]
+Main=1
+1=AnotherWorld.bas
+2=vars.bas
+3=decs.bas
+4=video.bi
+5=video.bas
+6=vm.bi
+7=vm.bas
+8=Datos.bi
+9=descomp.bas
+10=resource.bi
+12=intern.bi
+11=
+[BreakPoint]
+1=
+2=
+3=
+4=
+5=
+6=
+7=
+9=
+11=
+8=
+10=
+12=
+
+[FileInfo]
+1=0,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,27,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,27,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,32,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,597,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,46,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,329,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8=0,64,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9=0,107,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10=0,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
+12=0,33,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
