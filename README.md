@@ -17,7 +17,7 @@ If you Want to see independents levels, then Change variable name in line 41 in 
 part = GAME_PART2 ' change this, for example with GAME_PART3, or 4 o even GAME_PART8 in order to see Final Scene!!
 #EndIf
 
-English using Google translate, optional Original Spanish:
+Español:
 Mi trabajo ha sido simplemente portarlo a FreeBasic, con cambios en la administración de archivos, control de movimiento, obtención de recursos, etc. Pero la máquina virtual (intérprete de código de bytes de VM) y el sistema de gráficos son prácticamente lo mismo.
 
 No tiene sonido y tiene algunos errores, pero se puede jugar y divertirse con las fases.
